@@ -14,7 +14,7 @@ Há uma API desenvolvida em Spring Boot, na qual é cadastrado/removido/editado 
 
 **3 - Criação de contatos** - Nessa tela o usuário pode criar um novo contato, desde que respeite as regras definidas na validação de nome e email. Após criar, na tela de lista, é possível inserir uma imagem para o contato.
 
-![image](images/newuser.png)
+![image](images/adduser.gif)
 
 **4 - Cartão de contato** - Ao clicar em um usuário, é possivel ver as informações em forma de cartão.
 

@@ -22,7 +22,7 @@ export class ContatoService {
     return this.http.post<Contato>(this.url, contato);
   }
 
-  list(page, size) : Observable<PaginaContato> {
+  list(page: any, size: any) : Observable<PaginaContato> {
     const params = new HttpParams()
     .set('page', page)
     .set('size', size)

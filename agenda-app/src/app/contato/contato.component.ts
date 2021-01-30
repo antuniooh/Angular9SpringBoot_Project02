@@ -21,7 +21,7 @@ export class ContatoComponent implements OnInit {
   colunas = ['foto', 'id', 'nome', 'email', 'favorito']
 
   totalElementos = 0;
-  pagina = 0;
+  pagina: number = 0;
   tamanho = 5;
   pageSizeOptions : number[] = [5]
 
@@ -71,7 +71,7 @@ export class ContatoComponent implements OnInit {
     })
   }
 
-  uploadFoto(event, contato){
+  uploadFoto(event: any, contato: any){
     const files = event.target.files;
     if(files){
       const foto = files[0];
