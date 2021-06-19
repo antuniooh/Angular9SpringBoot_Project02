@@ -41,11 +41,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 💻 About The Project
-Development of the Ecoleta website, this project given on week 1 of Rocketseat's NLW. It consists of a website where the user can register new collection points for certain materials, as well as search for locations in their region.
+The project consists of an agenda, in which the user can enter, remove and edit contacts.
 
-The project aims to establish a connection between companies and/or entities that collect waste (organic and inorganic) to people and/or entities that need to constantly dispose of this waste. Solving a major recurrent problem that is the inadequate disposal of waste, facilitating the recycling and reuse process.
+There is an API developed in Spring Boot, in which contacts are registered/removed/edited in the database. Furthermore, the entire interface is done with the user through an Angular application that is consuming this Java API.
 
-![app](https://github.com/antuniooh/contact-list-webapp/blob/master/images/adduser.gif)
+![app](https://github.com/antuniooh/contact-list-webapp/blob/main/images/adduser.gif)
 
 
 <!-- HOW TO RUN -->
