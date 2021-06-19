@@ -19,9 +19,13 @@
 </p>
 
 <p align="center">
-  <img alt="JavaScript" src="https://img.shields.io/badge/SpringBoot-yellow?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img alt="HTML" src="https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java&logoColor=white"/>
-  <img alt="CSS" src="https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular&logoColor=white"/>
+  <img alt="Spring" src="https://img.shields.io/badge/SpringBoot-yellow?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img alt="Java" src="https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java&logoColor=white"/>
+  <img alt="Angular" src="https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular&logoColor=white"/>
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white"/>
+    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white"/>
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-darkblue?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
 
 
@@ -41,7 +45,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 💻 About The Project
-The project consists of an agenda, in which the user can enter, remove and edit contacts.
+The project consists of an adress book, in which the user can enter, remove and edit contacts.
 
 There is an API developed in Spring Boot, in which contacts are registered/removed/edited in the database. Furthermore, the entire interface is done with the user through an Angular application that is consuming this Java API.
 
