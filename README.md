@@ -1,35 +1,74 @@
-# Agenda - Angular 9 + SpringBoot
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/contact-list-webapp">
 
-Projeto desenvolvido ao longo da segunda parte do curso "Angular9 + Spring Boot". Consiste em uma agenda, na qual o usuário pode inserir, remover e editar contatos.
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/contact-list-webapp">
+  
+  <a href="https://github.com/antuniooh/contact-list-webapp/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antuniooh/contact-list-webapp">
+  </a>
+  
+   <img alt="GitHub" src="https://img.shields.io/github/license/antuniooh/contact-list-webapp">
+</p>
 
-## Funcionalidade
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/antuniooh/contact-list-webapp">
+    <img src="https://previews.123rf.com/images/jemastock/jemastock1802/jemastock180205904/95889436-phone-with-people-contacts-illustration.jpg" alt="Logo" width="550">
+  </a>
+</p>
 
-Há uma API desenvolvida em Spring Boot, na qual é cadastrado/removido/editado no banco de dados os contatos. Além disso, toda a interface é feita com o usuário por meio de uma aplicação Angular que está consumindo esta API Java.
+<p align="center">
+  <img alt="JavaScript" src="https://img.shields.io/badge/SpringBoot-yellow?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img alt="HTML" src="https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java&logoColor=white"/>
+  <img alt="CSS" src="https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular&logoColor=white"/>
+</p>
 
-**1 - Listagem dos contatos** - Assim que iniciada a aplicação, há uma listagem de todos os contatos salvos. 
 
-**2 - Favoritar** - É possivel favoritar e desfavoritar, os corações roxo preenchidos são os favoritos.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#-about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#-how-to-run">How To Run</a>
+    </li>
+  </ol>
+</details>
 
-![image](images/list.png)
 
-**3 - Criação de contatos** - Nessa tela o usuário pode criar um novo contato, desde que respeite as regras definidas na validação de nome e email. Após criar, na tela de lista, é possível inserir uma imagem para o contato.
+<!-- ABOUT THE PROJECT -->
+## 💻 About The Project
+Development of the Ecoleta website, this project given on week 1 of Rocketseat's NLW. It consists of a website where the user can register new collection points for certain materials, as well as search for locations in their region.
 
-![image](images/adduser.gif)
+The project aims to establish a connection between companies and/or entities that collect waste (organic and inorganic) to people and/or entities that need to constantly dispose of this waste. Solving a major recurrent problem that is the inadequate disposal of waste, facilitating the recycling and reuse process.
 
-**4 - Cartão de contato** - Ao clicar em um usuário, é possivel ver as informações em forma de cartão.
+![app](https://github.com/antuniooh/contact-list-webapp/blob/master/images/adduser.gif)
 
-![image](images/user.png)
 
-## Execução
+<!-- HOW TO RUN -->
+## 🚀 How To Run
+On both Windows and Linux, the execution is done from an IDE of your choice, to run a Java API. The API will be running locally on port 8080.
 
-Tanto no Windows quanto no Linux a execução é feita a partir de uma IDE de sua preferência, para executar a API Java. 
-A API ficará rodando localmente na porta 8080.
-
-Além da API é necessário executar também a aplicação Angular. Para isso deve-se executar:
+In addition to the API, it is also necessary to run the Angular application. For this you must execute:
 
 ```bash
-npm install
-npm start
-```
 
-Esta por sua vez ficará hospedada na porta 4200.
+# Clone the repository
+$ git clone https://github.com/antuniooh/contact-list-webapp.git
+
+# Access the project folder in your terminal / cmd
+$ cd contact-list-webapp/agenda-app
+
+# Install libs
+$ npm install
+
+# Deploy 
+$ npm start
+
+```
+The project will be hosted at "localhost:4200"
+
+
