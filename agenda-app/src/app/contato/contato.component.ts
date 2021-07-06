@@ -16,7 +16,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class ContatoComponent implements OnInit {
 
-  formulario: FormGroup;
+  formulario!: FormGroup;
   contatos: Contato[] = [];
   colunas = ['foto', 'id', 'nome', 'email', 'favorito']
 
